@@ -13,18 +13,42 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Blocks">
+      <UniqueIdentifier>{63847302-38e2-4f9f-8583-8a5552e9a1a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Blocks">
+      <UniqueIdentifier>{5e0d666f-58a0-4380-bf37-1ba8cc12ef52}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Level.cpp">
+    <ClCompile Include="GameGrid.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Position.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IBlock.cpp">
+      <Filter>Source Files\Blocks</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Level.h">
+    <ClInclude Include="GameGrid.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IBlock.h">
+      <Filter>Header Files\Blocks</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

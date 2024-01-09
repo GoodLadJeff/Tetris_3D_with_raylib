@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -130,11 +130,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="Block.cpp" />
+    <ClCompile Include="GameGrid.cpp" />
+    <ClCompile Include="IBlock.cpp" />
+    <ClCompile Include="Position.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Level.h" />
+    <ClInclude Include="Block.h" />
+    <ClInclude Include="GameGrid.h" />
+    <ClInclude Include="IBlock.h" />
+    <ClInclude Include="Position.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
